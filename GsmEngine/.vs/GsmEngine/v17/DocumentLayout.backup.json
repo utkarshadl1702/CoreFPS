@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\utkar\\Desktop\\GsmEngine\\CoreFPS\\GsmEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{726F0EE0-ABD4-4767-892B-B2FA9A4E4EE6}|GsmEngine\\GsmEngine.vcxproj|C:\\Users\\utkar\\Desktop\\GsmEngine\\CoreFPS\\GsmEngine\\GsmEngine\\GsmEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{726F0EE0-ABD4-4767-892B-B2FA9A4E4EE6}|GsmEngine\\GsmEngine.vcxproj|solutionrelative:GsmEngine\\GsmEngine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GsmEngine.cpp",
+              "DocumentMoniker": "C:\\Users\\utkar\\Desktop\\GsmEngine\\CoreFPS\\GsmEngine\\GsmEngine\\GsmEngine.cpp",
+              "RelativeDocumentMoniker": "GsmEngine\\GsmEngine.cpp",
+              "ToolTip": "C:\\Users\\utkar\\Desktop\\GsmEngine\\CoreFPS\\GsmEngine\\GsmEngine\\GsmEngine.cpp",
+              "RelativeToolTip": "GsmEngine\\GsmEngine.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-30T18:54:35.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
