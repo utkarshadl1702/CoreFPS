@@ -19,6 +19,9 @@ float playerA = 0.0;
 int nMapWidth = 16;
 int nMapHeight = 16;
 
+
+float fFOV=3.14159/4 //pi/4 field of view
+
 int main()
 {
 	//Setting up variables
@@ -28,9 +31,35 @@ int main()
 
 	DWORD dwBytesWritten = 0;
 
+	//Uni string for map
+
+	wstring map;
+	//Create a map manually
+	map += L"################";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"##............##";
+	map += L"################";
+
 	//Game loop
 	while (1)
 	{
+		//Not bothered to look up and down so only writing for x-y axis
+		for(int x=0;x<nScreenWidth;x++)
+			{
+			float fRayAngle = ((fPlayerA - fFOV) / 2.0f) + ((float)x / (float)nScreenWidth) * fFOV;
+		}
 		//Setting array and showing character on screen
 	screen[nScreenWidth * nScreenHeight - 1] = '\0';
 	//{0,0} means start writing from top-left
